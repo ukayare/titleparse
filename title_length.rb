@@ -3,7 +3,7 @@ require 'nokogiri'
 require 'progressbar'
 require 'json'
 
-text = File.read("all_title.html", :encoding => Encoding::UTF_8)
+text = File.read("2013.html", :encoding => Encoding::UTF_8)
 
 html = Nokogiri::HTML.parse(text, nil, "utf8")
 
