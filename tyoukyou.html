@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-style-type" content="text/css" />
+<link href="./css/default.css" rel="stylesheet" type="text/css" />
+<link href="./css/sql_for_erogamer.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript">
+</script>
+<style type="text/css">
+#povlist{ margin-bottom: 0.1em; }
+</style>
+<title>SQL実行フォーム -エロゲーマーのためのSQL-</title>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24809113-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+
+<!-- container　ここから -->
+<div id="container">
+
+<!-- heder　ここから -->
+<div id="header">
+
+<div id="title">
+<div id="title_header"><h1><a href="sql_for_erogamer_index.php">エロゲーマーのためのSQL</a></h1></div>
+</div>
+
+</div>
+<!-- heder　ここまで --><!-- main　ここから -->
+<div id="main">
+<div id="main_header"><h2>SQL実行フォーム</h2></div>
+<div id="topic_path" class="topic_path" style="margin-top:15px; margin-bottom:15px;">
+<a href="sql_for_erogamer_index.php">トップページ</a> → SQL実行フォーム
+</div>
+<div id="main_main">
+
+<!-- form ここから -->
+<div id="form">
+<div id="form_header"><h3>SQL実行フォーム</h3></div>
+<div id="form_main">
+<form action="/~ap2/ero/toukei_kaiseki/sql_for_erogamer_form.php" method="post">
+<div id="sql"><textarea name="sql" rows="30" cols="150">SELECT gamename FROM gamelist where gamename like &#039;%調教%&#039;;</textarea></div>
+<div id="submit"><input type="submit" value="実行" /></div>
+</form>
+</div>
+</div>
+<!-- form ここまで -->
+
+<div id="queryplan" class="bottom-margin">
+<div id="queryplan_header"><h3>QUERY PLAN</h3></div>
+<div id="queryplan_main">
+<pre>
+Seq Scan on gamelist  (cost=0.00..1414.01 rows=2 width=38)<br />
+  Filter: (gamename ~~ &#039;%調教%&#039;::text)<br />
+</pre>
+</div>
+</div>
+<div id="query_result" class="bottom-margin">
+<div id="query_result_header"><h3>SQLの実行結果</h3></div>
+<div id="query_result_main"><table>
+<tr><th>gamename</th></tr>
+<tr><td>幻影調教倶楽部</td></tr>
+<tr><td>男の娘へ調教されました</td></tr>
+<tr><td>継母調教</td></tr>
+<tr><td>ロリ☆づま ～ヘタレ夫を逆調教!～</td></tr>
+<tr><td>人妻奴隷 淫辱調教</td></tr>
+<tr><td>ARCUS X ～シムサード、淫欲調教の宴～</td></tr>
+<tr><td>母乳喫茶 人妻調教</td></tr>
+<tr><td>雌豚調教</td></tr>
+<tr><td>雌豚調教 紅</td></tr>
+<tr><td>あいちゃん for Me ～メイド調教編～</td></tr>
+<tr><td>桃色汁 ～桃色フェロモンで調教学園RPG～</td></tr>
+<tr><td>フルアニメ触感ゲーム おさわりスパイ尋問調教 ～諜報員はHも得意～</td></tr>
+<tr><td>調教令嬢III</td></tr>
+<tr><td>陵辱学園チアガールズ公開調教 風香編</td></tr>
+<tr><td>家族調教 最終調教ハーレム編</td></tr>
+<tr><td>聖女異種姦調教 ～魔淫に溺れる僧侶～</td></tr>
+<tr><td>続･メイド惨劇館 ～ザーメン鬼畜調教～</td></tr>
+<tr><td>三射面談 ～連鎖する恥辱・調教の学園～</td></tr>
+<tr><td>監禁 ～女子校生凌辱調教～</td></tr>
+<tr><td>男の娘パラダイス5 ～エロエロ凌辱プレイ♪ たくさんの男の娘達を調教したり快楽漬けにしたりちょっとマニアックなプレイも楽しんじゃうオムニバスADVゲーム!～</td></tr>
+<tr><td>ぼくらの監禁診察室 ～姉妹とりかえっこ調教～</td></tr>
+<tr><td>裏接待調教課</td></tr>
+<tr><td>あすか♂ 女装美少年調教シミュレーション</td></tr>
+<tr><td>女教師&times;調教師 ～放課後の裏授業～</td></tr>
+<tr><td>居残り奴隷クラブ ～変態用務員の陵辱調教～</td></tr>
+<tr><td>特務捜査官レイ&amp;風子 ～受精街の家畜調教～</td></tr>
+<tr><td>放課後美肉調教奴隷倶楽部 嬲</td></tr>
+<tr><td>凌辱学園 ～部活調教恥獄責め～ </td></tr>
+<tr><td>調教ダイアリー</td></tr>
+<tr><td>つるぺた&times;NTR ～幼なじみ彼女の3年間の調教記録～</td></tr>
+<tr><td>陵辱学園チアガールズ公開調教 華恋編</td></tr>
+<tr><td>学園調教委員会 ～牝教師淫辱の放課後～ </td></tr>
+<tr><td>秋葉露出 ～変態M女調教～</td></tr>
+<tr><td>憧れの美央姉はボクの妊娠奴隷(義姉弟同棲 ～お姉ちゃん妊娠調教～)</td></tr>
+<tr><td>誘拐 ～令嬢調教～</td></tr>
+<tr><td>完全なる調教ファイル フェラ集中調教編</td></tr>
+<tr><td>完全なる調教ファイル 爆乳特化調教編</td></tr>
+<tr><td>巨乳人妻教師 ～恥辱の校内調教～ ML(メディ倫対応版)</td></tr>
+<tr><td>姦獄少女 ～ロリータ淫辱調教～</td></tr>
+<tr><td>普通だった俺が調教されてドMになったわけ</td></tr>
+<tr><td>「裏ゴト師」 陵辱アイドル調教奴隷</td></tr>
+<tr><td>調教クエスト</td></tr>
+<tr><td>退魔巫女由衣 ～三穴覚醒調教～</td></tr>
+<tr><td>White note ～私の調教日誌～</td></tr>
+<tr><td>調教淫辱姫シルウィア ～魔獣性奴隷の烙印～</td></tr>
+<tr><td>ガングロビッチ妹を種付け調教</td></tr>
+<tr><td>DS[daemon slave]pr なまいき悪魔娘淫獄調教</td></tr>
+<tr><td>抜け忍 ～捕獲、そして調教へ～</td></tr>
+<tr><td>ギャルビッチなドS幼馴染みに調教されて奴隷になったボク</td></tr>
+<tr><td>放課後調教倶楽部 ～保健室の牝奴隷～</td></tr>
+<tr><td>淫蜜堕教師 冴子 ～雌奴隷調教日誌～</td></tr>
+<tr><td>SM調教師 瞳 VOL.2 Remix</td></tr>
+<tr><td>調教代行人</td></tr>
+<tr><td>ショタ調教物語</td></tr>
+<tr><td>調教家庭教師 ～お嬢様は肉奴隷～</td></tr>
+<tr><td>えここ調教日誌</td></tr>
+<tr><td>女教授調教ゼミナール ～スーツの下の熟れた肢体</td></tr>
+<tr><td>親友の母を目の前で中出し調教 ～オバサン、ドMでしょ？～</td></tr>
+<tr><td>セレブ子持ち妻淫猥調教 ～凌辱管理人～</td></tr>
+<tr><td>リトルガール☆レッスン ～今日から始まるロリっ娘調教一週間!～</td></tr>
+<tr><td>吸尻鬼 ～アナル姫肛姦調教録～ </td></tr>
+<tr><td>清純派アイドル拉致監禁陵辱調教</td></tr>
+<tr><td>聖天使シャーロット・淫虐の奴隷調教 ～ご主人様だけの孕み天使にしてください～ </td></tr>
+<tr><td>陵辱学園チアガールズ公開調教 和津美編</td></tr>
+<tr><td>催眠牝奴隷騎士ソフィア ～レズ騎士団長、催眠調教に堕ちる～</td></tr>
+<tr><td>巫女乙女洗脳調教(妖の杜 ～堕ちゆく乙女巫女～)</td></tr>
+<tr><td>家族調教 義姉・悠美編</td></tr>
+<tr><td>調教パニックドールズ(WIN)</td></tr>
+<tr><td>眼鏡っ娘。 Episode1 女子高生監禁調教</td></tr>
+<tr><td>狂淫母娘 ～恥辱のコスプレ調教～</td></tr>
+<tr><td>露出調教マニア同好会</td></tr>
+<tr><td>あの、いつも明るくて元気なオバさんが、クソガキにメス犬調教されて熟女系エロ雑誌でイキ顔を晒すなんて&hellip;!!</td></tr>
+<tr><td>カオスBaby義美 カップリング ～小悪魔!! 調教日記～</td></tr>
+<tr><td>正しい姉妹の調教方</td></tr>
+<tr><td>乳辱人妻女学園 ～淫獄の夜間人妻調教学科(ニ部)</td></tr>
+<tr><td>調教志願妻 ～息子に溺れる雌陰の疼き</td></tr>
+<tr><td>放尿依存少女「優衣」 ～おしっこ彼女を調教する簡単な方法～</td></tr>
+<tr><td>監禁陵辱調教 葉月&amp;美緒</td></tr>
+<tr><td>男の娘レイプ ～調教ザーメンでアヘアヘBefore&rArr;After～</td></tr>
+<tr><td>姉は巨乳エロ漫編集者2 ～凌辱調教肉人形編～</td></tr>
+<tr><td>ふたなりエルフ快楽調教 だめっ&hearts;でるううぅっ&hearts;これ以上出したくないいいぃぃ&hearts;</td></tr>
+<tr><td>調教令嬢II</td></tr>
+<tr><td>営業部第4課 牝豚調教飼育係</td></tr>
+<tr><td>孕姫 ～令嬢妊娠調教計画～</td></tr>
+<tr><td>Six Pieces ～多重調教～</td></tr>
+<tr><td>ゆーくりパニック 調教ダイアリー</td></tr>
+<tr><td>裏家族遊戯 ～母娘調教譚～</td></tr>
+<tr><td>囚われ姫 ～聖女神奴隷調教～</td></tr>
+<tr><td>アイヌ巫女調教 ～汚された大自然～ </td></tr>
+<tr><td>種付調教2</td></tr>
+<tr><td>催眠牝奴隷騎士ソフィア  ～レズ騎士団長、催眠調教に堕ちる～</td></tr>
+<tr><td>薔薇の調教物語</td></tr>
+<tr><td>隣の家の○学生を肉オナホに調教したんだけど何か質問ある?</td></tr>
+<tr><td>あらがい ～調教の罠～ DVDPG</td></tr>
+<tr><td>家族調教 叔母・怜子編</td></tr>
+<tr><td>聖姉妹レナ＆ティセリア ～気高き乙女の魂は、精淫調教の果てに闇を彷徨う～</td></tr>
+<tr><td>幻影調教倶楽部2</td></tr>
+<tr><td>魔隷奴 ～調教の館～</td></tr>
+<tr><td>マイトイ ～お嬢様の調教日誌～</td></tr>
+<tr><td>家族調教 義母・美紀子編</td></tr>
+<tr><td>ぬかるみ ～女たちの調教日誌～</td></tr>
+<tr><td>種付姉妹調教です</td></tr>
+<tr><td>ショタ調教物語</td></tr>
+<tr><td>種付調教</td></tr>
+<tr><td>コトバの消えた日 ～心まで裸にする純愛調教～</td></tr>
+<tr><td>リトルガール☆レッスン ～今日から始まるロリっ娘調教一週間!～</td></tr>
+<tr><td>家庭調教 ～奈緒子～</td></tr>
+<tr><td>ふたなりっこ調教計画</td></tr>
+<tr><td>ヒトでなしの烙印 ～婦警監禁犬姦調教～</td></tr>
+<tr><td>Sister tyranT ～実姉屈服調教～</td></tr>
+<tr><td>獣っ娘ハンター 獣人捕獲販売人の巨乳ウサ耳娘ご奉仕調教日記</td></tr>
+<tr><td>夜姦診療 ～ナース調教カルテ～</td></tr>
+<tr><td>メイド超狂イク ～服従母娘、孤島の館での淫虐調教～</td></tr>
+<tr><td>巨乳JK催淫調教 ～キモ兄は妹をミルク飲み人形に～</td></tr>
+<tr><td>淫シリーズ 淫縛監禁調教</td></tr>
+<tr><td>母娘隷嬢調教 ～連鎖する堕落の輪～</td></tr>
+<tr><td>真・凌辱家庭教師 ～処女調教レイプ～</td></tr>
+<tr><td>乳忍者レボリューション ～彼女たちを調教せよ～</td></tr>
+<tr><td>パンデモニウムの調教師</td></tr>
+<tr><td>うつくしひめ ～魔法調教物語～</td></tr>
+<tr><td>ロリ☆づま ～ヘタレ夫を逆調教!～</td></tr>
+<tr><td>夜姦診療カルテ2 ～ナース特別調教～</td></tr>
+<tr><td>妹調教日記&radic;happy end&amp;another</td></tr>
+<tr><td>特務捜査官レイ&amp;風子 ～受精街の家畜調教～</td></tr>
+<tr><td>寝取られ男の娘 ～俺の幼馴染みの無邪気な彼女(男の娘)がまさか粗暴な体育教師に弱みを握られて調教されていつの間にか快楽に溺れてアヘアヘダブルピースでビデオ撮影されて喜んでいただなんて!!～</td></tr>
+<tr><td>変態露出調教妻 慶子</td></tr>
+<tr><td>陵辱学園 ～巨乳姉妹調教授業～</td></tr>
+<tr><td>ボクのママは受精肉奴隷 ～友達の母親調教～ </td></tr>
+<tr><td>牝鏡調教 ～メガネ少女は如何にしてキモオタ教師のものになったか～ </td></tr>
+<tr><td>小さい頃から知ってる、けっこう美人だけどうるさい近所のオバちゃんが、悪ガキに調教されてBBAの裸体を嬲られながらアヘるなんて&hellip;&hellip;!!</td></tr>
+<tr><td>ぼくらの監禁診察室 ～姉妹とりかえっこ調教～ ML(メディ倫対応版)</td></tr>
+<tr><td>淫獄の学園 ～美聖徒調教～</td></tr>
+<tr><td>奴隷委員長 ～孕ませ調教～</td></tr>
+<tr><td>露出奴隷調教記録</td></tr>
+<tr><td>淫らな魔法使いと救性主 －淫妖救済調教録－</td></tr>
+<tr><td>愛奴変態調教倶楽部</td></tr>
+<tr><td>巨乳人妻教師 ～恥辱の校内調教～</td></tr>
+<tr><td>露出調教同好会2</td></tr>
+<tr><td>巨乳女教師 ～汁奴隷の学園性活～(巨乳女教師精液調教)</td></tr>
+<tr><td>JK処女妹の淫欲調教 ～妹の妄想は、現実へと喘ぎだす&hellip;</td></tr>
+<tr><td>堕姫3 ～エルフ貪り調教編～</td></tr>
+<tr><td>パニックドールズ(調教パニックドールズ)</td></tr>
+<tr><td>水泳調教師 ～母娘羞恥レッスン～</td></tr>
+<tr><td>特務捜査官レイ&amp;風子 ～受精街の家畜調教～</td></tr>
+<tr><td>巨乳JK催淫調教 ～キモ兄は妹をミルク飲み人形に～</td></tr>
+<tr><td>女教師陵辱セミナー(隷属 REIZOKU ～巨乳姉妹調教授業～)</td></tr>
+<tr><td>OL監禁絶頂調教</td></tr>
+<tr><td>婦女・膀胱3 恥辱姉妹失禁ダブル調教 DVDPG</td></tr>
+<tr><td>継母調教</td></tr>
+<tr><td>スーパー調教師J</td></tr>
+<tr><td>完全なる調教ファイル 肉穴固執調教編</td></tr>
+<tr><td>隷畜姉妹 ～幼姉妹鬼畜調教～</td></tr>
+<tr><td>JK調教学淫 ～自ら堕ちる穢れた乙女～</td></tr>
+<tr><td>ディバインハート マキナ 外伝01 ～マキナ学内調教篇～</td></tr>
+<tr><td>コスプレ調教室 ～ 巨乳猫耳ナース編～</td></tr>
+<tr><td>隷属秘書 ～牝犬オフィス調教課</td></tr>
+<tr><td>少女迷宮 ～淫猥姉妹の男性調教支配録～</td></tr>
+<tr><td>獣っ娘ハンター 獣人捕獲販売人の巨乳ウサ耳娘ご奉仕調教日記</td></tr>
+<tr><td>白濁巫女 ～ロリータ巫女姉妹淫落調教～</td></tr>
+<tr><td>ちいさな牙と調教師</td></tr>
+<tr><td>家族調教 双子義妹・悠＆舞編</td></tr>
+<tr><td>Knight Carnival! After Party ～騎士王被虐調教 快楽に彩られた騎士道精神～</td></tr>
+<tr><td>奴隷ママ 受精教育 ～友達の母親調教～</td></tr>
+<tr><td>生意気な妹の調教法</td></tr>
+<tr><td>露出調教同好会</td></tr>
+<tr><td>牝奴隷調教投稿掲示板 ～隣のお姉さん史絵～</td></tr>
+<tr><td>団地の双子レイプ調教 ～姉は露出狂妹は薬漬け～</td></tr>
+<tr><td>決意と決別と～調教されし者～</td></tr>
+<tr><td>幼徒性指導 ～ロリータ少女の調教授業～</td></tr>
+<tr><td>ら・ぶ・ら・ぶ調教 ふたご姉妹</td></tr>
+<tr><td>空木 巴 ～壊虐調教生徒会～</td></tr>
+<tr><td>隷属の魔女エイプリル ～淫辱の魔法調教～</td></tr>
+<tr><td>闇調教SIN</td></tr>
+<tr><td>巨乳姉妹教師 ～淫欲の人妻調教～</td></tr>
+<tr><td>調教希望!?わがままツンデ令嬢!</td></tr>
+<tr><td>ショタ調教物語 ～快楽の虜となってアヘアヘよがるショタ美少年を女装させて犯して白濁液ぶっかけて俺のモノにしちゃう夏休み～</td></tr>
+<tr><td>凌辱ゲリラ調教</td></tr>
+<tr><td>つむぎ様の花婿調教日記</td></tr>
+<tr><td>監獄姫 ～リトル女王様のM男ペット化調教～</td></tr>
+<tr><td>姫調教 歪みきった愛のカタチ</td></tr>
+<tr><td>Sister tyranT ～実姉屈服調教～</td></tr>
+<tr><td>陰陽騎士トワコ ～蛇神の淫魔調教～</td></tr>
+<tr><td>口唇包柔 ～うさみみ調教 白く濡れる女体たち～</td></tr>
+<tr><td>らぶらぼ ～調教なんて興味のなかった俺と彼女の放課後SMラボラトリー～</td></tr>
+<tr><td>爆乳帝王 ～乳フェチなので爆乳転入生を牝牛調教してみました～</td></tr>
+<tr><td>DS[daemon slave]04 なまいき悪魔姉妹拘束調教</td></tr>
+<tr><td>家出少女調教通学</td></tr>
+<tr><td>8年陵辱 ～悶絶調教肉玩具～</td></tr>
+<tr><td>調教Mエクスタシー</td></tr>
+<tr><td>ご奉仕メイド妻 ～淫乱若妻調教～</td></tr>
+<tr><td>ワルキューレ調教・ザーメンタンクの戦乙女の10人姉妹「女神である私達に貴方の精液を&hellip;」</td></tr>
+<tr><td>催淫調教 ～孫の身体はみんなの玩具～</td></tr>
+<tr><td>女装少年女子校内調教日記 ～秘密のご奉仕強制～</td></tr>
+<tr><td>先生を調教しよう!</td></tr>
+<tr><td>犯ワレルココロ 隷属調教</td></tr>
+<tr><td>密室の若妻調教 ～凌辱管理人～(密室の人妻調教 ～管理人の凌辱日記～)</td></tr>
+<tr><td>姉妻淫欲調教 ～ブ男でヒッキーな僕との義兄には言えない秘密のエクスタシー～</td></tr>
+<tr><td>純聖天使・調教飼育 ～魔悦に染め上げられる生贄の少女たち～</td></tr>
+<tr><td>淫シリーズ 淫乱露出調教</td></tr>
+<tr><td>妹調教日記みにふぁんでぃすく。</td></tr>
+<tr><td>らいかぁぎ ★男の娘お尻調教れっすん★</td></tr>
+<tr><td>陵辱学園チアガールズ公開調教</td></tr>
+<tr><td>ニコニコ女神 ～生放送で姉調教～</td></tr>
+<tr><td>監獄女王 ～ドS女看守達によるM男化調教～</td></tr>
+<tr><td>憧れのお姉ちゃんは調教志願者?!</td></tr>
+<tr><td>DS[daemon slave]NTR なまいき悪魔娘ネトラレ調教</td></tr>
+<tr><td>妻が少年達に調教されているようです</td></tr>
+<tr><td>性奴調教指導室 ～変態拘束教育課程～</td></tr>
+<tr><td>牢獄のミスリート ～復讐の淫薬調教～ </td></tr>
+<tr><td>超満淫 ～女子性奴車内調教～</td></tr>
+<tr><td>不良少年女体化 ～いじめっ子は調教してしまえっ!～</td></tr>
+<tr><td>調教志願妻 ～息子に溺れる雌陰の疼き～</td></tr>
+<tr><td>調教神ユーリ －俺様の肉便器奴隷にしてやるぜ!!－</td></tr>
+<tr><td>AAA48 国民的アイドル調教ストーリー</td></tr>
+<tr><td>装甲戦姫プリズムレイカー ～正義のヒロイン屈辱の洗脳催眠調教～</td></tr>
+<tr><td>AKiBa JK 露出調教 ナニすんのよッ、信じらんなぁい!! 勝手にあたしの○○○見ないでよ、このヘンタイオタク!! マジでサイッテ～!! </td></tr>
+<tr><td>家庭内調教</td></tr>
+<tr><td>ケンカ最強妻がまさかの敗北! メス犬調教‼︎</td></tr>
+<tr><td>嬲ラレ姉妹 ～強制コスプレ調教日誌～</td></tr>
+<tr><td>サクラ紀行 ～奴隷調教～</td></tr>
+<tr><td>吸尻鬼 ～アナル姫肛姦調教録～ </td></tr>
+<tr><td>DropOut 巨乳露出調教学園</td></tr>
+<tr><td>ハメたいJドルの墜とし方 ～美少女Jドル&times;眠姦レイプ調教～</td></tr>
+<tr><td>I.D.調教アーカイブス</td></tr>
+<tr><td>ごっくん! マイダーリン ～金髪ぷに巨乳な婚約者の調教DAYS～</td></tr>
+<tr><td>桃色調教 ～めざせHなお嬢様～</td></tr>
+<tr><td>グラントラッパー -女装レズ 肛門調教の掲示板-</td></tr>
+<tr><td>Lock-ON エンドレス調教喫茶 </td></tr>
+<tr><td>ちん♂ん痴姦電車 ～痴姦レイプ&times;ロリ便器牝ブタ調教～</td></tr>
+<tr><td>寝取られナース 人妻さやか 堕落淫乱調教編</td></tr>
+<tr><td>強制ギャル化調教FUCK ～チ○ポぶちこまれて嬉しすぎてピ～～～ッス!! イェ～イ、マ○コ気持ちーアゲアゲテンショんっほオオォォイ、イグイグいえェーーッス!!～</td></tr>
+<tr><td>女教師 輪姦調教の檻</td></tr>
+<tr><td>抜け忍 ～捕獲、そして調教へ～</td></tr>
+<tr><td>肉調教 ～僕の女神が肉奴隷～</td></tr>
+<tr><td>信じて送り出したフタナリ彼女が農家の叔父さんの変態調教にドハマリしてアヘ顔ピースビデオレターを送ってくるなんて&hellip;</td></tr>
+<tr><td>J&times;J 女子校生獣化計画 ～メス〇公開生調教～</td></tr>
+<tr><td>妹調教日記 ～こんなツンデレが俺の妹なわけない!～</td></tr>
+<tr><td>妹ニート更正調教</td></tr>
+<tr><td>凌辱ファミレス調教メニュー</td></tr>
+<tr><td>喪服ロリータ緊縛奇譚 美少女性奴隷調教</td></tr>
+<tr><td>M．E．s -同級生メイド調教-</td></tr>
+<tr><td>少女連鎖2 -童貞少年・快楽調教責め-</td></tr>
+<tr><td>妻ネトリ ～女教師の調教日誌～ </td></tr>
+<tr><td>柊くんの調教日記</td></tr>
+<tr><td>瞳の烙淫3 ～双眸の洗脳調教～</td></tr>
+<tr><td>愛妻便女 ～清楚で貞淑だった妻がいつの間にか性欲処理便器に調教されていた～</td></tr>
+<tr><td>装甲戦姫プリズムシャイン ～正義のヒロイン堕落の洗脳調教～</td></tr>
+<tr><td>美人巨乳教師媚薬調教</td></tr>
+<tr><td>蒼穹のクレイドル -人形学園調教記-</td></tr>
+<tr><td>音速飛翔ソニックメルセデス ～双子ヒロイン調教指令!～</td></tr>
+<tr><td>体育調教師 ～鬼畜授業ブルマー遊戯～</td></tr>
+<tr><td>肉奴隷調教ゲーム</td></tr>
+<tr><td>凌辱学園長／奴隷倶楽部 ～読心調教録～</td></tr>
+<tr><td>麗佳牝犬調教 ～&times;&times;に犯されて&hellip;～</td></tr>
+<tr><td>ディープ・ボディ ～変態淫具奴隷調教遊戯～ </td></tr>
+<tr><td>あの、いつも明るくて元気なオバさんが、クソガキにメス犬調教されて熟女系エロ雑誌でイキ顔を晒すなんて&hellip;!!</td></tr>
+<tr><td>人妻セレブ露出調教 ～下衆な庶民の分際で上流階級の美しい○○○が見られるなんてありがたく思いなさい!!～</td></tr>
+<tr><td>超満淫 ～美乳姉妹車内調教</td></tr>
+<tr><td>虜讐 ～女学生調教～</td></tr>
+</table>
+</div>
+</div>
+
+</div>
+</div>
+<!-- main　ここまで -->
+
+<!-- footer　ここから -->
+<div id="footer">
+
+<hr />
+<!-- site_infomation　ここから -->
+<div id="site_infomation">
+<address>
+ひろいん<br />
+erscape &#64; apost.plala.or.jp
+</address>
+</div>
+<!-- site_infomation　ここまで -->
+
+</div>
+<!-- footer　ここまで -->
+
+</div>
+<!-- container　ここまで -->
+
+</body>
+</html>
