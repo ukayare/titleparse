@@ -2,8 +2,11 @@ require 'natto'
 require 'nokogiri'
 require 'progressbar'
 require 'json'
+target_tango = ["syoujo","musume","imouto","gakuen","simai","kanojo","tuma","tyoukyou","hitoduma","kyousi","hime","ane","naka","koi"]
 
-text = File.read("2013.html", :encoding => Encoding::UTF_8)
+target_tango.each do |x|
+puts x
+text = File.read("#{x}.html", :encoding => Encoding::UTF_8)
 
 html = Nokogiri::HTML.parse(text, nil, "utf8")
 
@@ -28,3 +31,4 @@ ltitle.each{|key, value|
 }
 
 puts t
+end
